@@ -1,0 +1,37 @@
+{
+    "name": "rajkumarpaneru/laravel-permission-editor",
+    "description": "Visual UI for managing Roles/Permissions for Spatie Laravel Permission package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Raj Kumar Paneru",
+            "email": "raajkumarpaneru@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+
+    "autoload": {
+
+        "psr-4": {
+
+            "rajkumarpaneru\\LaravelPermissionEditor\\": "src"
+
+        }
+
+    },
+
+    "extra": {
+
+        "laravel": {
+
+            "providers": [
+
+                "rajkumarpaneru\\LaravelPermissionEditor\\PermissionEditorServiceProvider"
+
+            ]
+
+        }
+
+    }
+}
