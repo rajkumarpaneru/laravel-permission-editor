@@ -17,7 +17,7 @@ class PermissionEditorServiceProvider extends ServiceProvider
         Route::prefix('permission-editor')
             ->as('permission-editor.')
             ->group(function () {
-                $this->loadRoutesFrom(__DIR__ . '/../routes/web.php');
+                $this->loadRoutesFrom(__DIR__ . '/routes/web.php');
             });
     }
 }
