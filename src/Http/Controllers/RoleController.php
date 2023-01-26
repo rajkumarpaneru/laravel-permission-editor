@@ -8,6 +8,6 @@ class RoleController extends Controller
 {
     public function index()
     {
-        return 'It works!';
+        return view('permission-editor::roles.index');
     }
 }
